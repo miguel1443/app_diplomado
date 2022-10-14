@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { db } from '../firebase';
 import { collection, onSnapshot, addDoc, doc, deleteDoc} from 'firebase/firestore';
-import { nanoid } from 'nanoid'
+
 
 const Formulario = () => {
     const [fruta, setFruta] = useState('');
