@@ -7,6 +7,19 @@ const Formulario = () => {
     <div className='container mt-5'>
         <h1 className='text-center'>CRUD BÁSICO</h1>
         <hr/>
+        <div className='row'>
+            <div className="col-8">
+                <h4 className="text-center">Listado de Frutas</h4>
+                <ul className="list-group">
+
+                </ul>
+            </div>
+        
+
+        <div className='col-4'>    
+        <h4 className="text-center">
+            Agregar Frutas
+        </h4>
         <form>
         <input 
                 className='form-control mb-2'
@@ -22,9 +35,10 @@ const Formulario = () => {
                 type='submit'
                 >Agregar</button>
         </form>
-
+        </div>
     </div>
+</div>
+
   )
 }
-
 export default Formulario
